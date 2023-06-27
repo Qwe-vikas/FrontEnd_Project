@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch_SkillTest_01</title>
+    <link rel="stylesheet" href="stopStyles.css">
+
+</head>
+
+<body>
+    <div id="layout">
+        <div id="screen">
+            <div id="headline">
+                <h1>Skill Test 01</h1>
+                <h2>STOPWATCH</h1>
+            </div>
+            <!-- Time -->
+            <div id="time">
+                <span class="number" id="hours">00</span>
+                <span id="text">Hr</span>
+                <span class="number" id="minutes">00</span>
+                <span id="text">Min</span>
+                <spna class="number" id="second">00</spna>
+                <span id="text">Sec</span>
+                <spna class="number" id="count">00</spna>
+                <!-- <button type="reset">Reset</button>
+                    <button type="button">Stop</button>
+                    <button type="submit">End</button> -->
+            </div>
+            <div id="screenbtn">
+                <button class="btn" id="reset" onclick="reset()">Reset</button>
+                <button class="btn" id="stop" onclick="stop()">Stop</button>
+                <button class="btn" id="start" onclick="start()">Start</button>
+    
+            </div>
+        </div>
+
+        <!-- button -->
+        <!-- <div id="screenbtn">
+            <button type="reset">Reset</button>
+            <button type="button">Stop</button>
+            <button type="submit">End</button>
+
+        </div> -->
+    </div>
+    <script src="stopwatch.js"></script>
+</body>
+
+</html>
